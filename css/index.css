@@ -2,6 +2,10 @@
     background-color: #3492eb;
 }
 
+.navbar .navbar-toggler .navbar-toggler-icon {
+    color: white;
+}
+
 a {
     color: white;
     font-weight: bolder;
