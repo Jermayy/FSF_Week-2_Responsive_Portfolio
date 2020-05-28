@@ -1,8 +1,38 @@
+.navbar {
+    background-color: #3492eb;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+}
+
+.navigationBar {
+    margin: auto;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+}
+
+.navbar-brand {
+    margin: 0;
+    margin-left: 60px;
+    padding: 24px 16px 24px 16px;
+    border: 2px black;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+    background-color: grey;
+}
+
 .container {
     max-width: 1024px;
 }
 
-a {
-    width: 200px;
-    height: 200px;
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 16px;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
