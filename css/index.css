@@ -1,3 +1,9 @@
+    * {
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        clear: both;
+    }
+    
     .navigationBar {
         width: 100%;
         margin: auto;
@@ -24,13 +30,13 @@
     }
     
     .container {
-        background-color: turquoise;
+        margin-top: 30px;
     }
     
-    #aboutMeCard {
+    .card {
+        box-shadow: 5px 10px #888888;
         margin: 30px;
         border-radius: 20px;
-        box-shadow: 5px 10px #888888;
     }
     
     .aboutMe {
@@ -89,5 +95,8 @@
         }
         .navbar-brand {
             margin-left: 25%;
+        }
+        .navbar-toggler-icon {
+            color: white;
         }
     }
