@@ -16,46 +16,59 @@
 </head>
 
 <body>
-
-    <div class="row navigationBar">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark col-sm-12">
-            <a class="navbar-brand" href="index.html">Jeremy Carlos</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <container>
+        <div class="row navigationBar">
+            <nav class="navbar navbar-expand-sm  col-sm-12">
+                <a class="navbar-brand" href="index.html">Jeremy Carlos</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse " id="navbarText">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link navBtns" href="index.html">About </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navBtns" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navBtns" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link navBtns" href="index.html">About </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navBtns" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navBtns" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
 
-            </div>
-        </nav>
-    </div>
-
-    <div class="row content">
-        <div class="card aboutMe col-sm-6" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">About Me</h5>
-                <img class="headshot" src="assets/jeremy_headshot.jpg" alt="headshot of Jeremy Carlos">
-                <p class="card-text">Hi! My name is Jeremy and I am Full Stack Development student currently partaking the Full Stack Flex Bootcamp by Trilogy Education in collaboration with the University of Sydney. I am an aspiring Software Engineer, with a passion for
-                    continuous learning and looking to secure my first full time position in the IT industry.
+                </div>
+            </nav>
+        </div>
 
 
-                </p>
 
-                <p class="card-text">I am looking to demonstrate my skills in HTML, CSS, and Javascript to create dynamic and immersive browser based applications for your users as well as develop new skills as I build my career in software development.</p>
+        <div class="row content">
+            <div class="card col-sm-6" id="aboutMeCard" style="width: 18rem;">
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class=" col-sm-6">
+                            <h5 class="card-title" id="aboutme">About Me</h5>
+                            <img class="headshot" id="headshot" src="assets/jeremy_headshot.jpg" alt="headshot of Jeremy Carlos">
+                        </div>
+
+                        <div class=" col-sm-6">
+                            <p class="card-text">Hi! My name is Jeremy and I am Full Stack Development student currently partaking the Full Stack Flex Bootcamp by Trilogy Education in collaboration with the University of Sydney. I am an aspiring Software Engineer, with a
+                                passion for continuous learning and looking to secure my first full time position in the IT industry.</p>
+
+                            <p class="card-text">I am looking to demonstrate my skills in HTML, CSS, and Javascript to create dynamic and immersive browser based applications for your users as well as develop new skills as I build my career in software development.</p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
             </div>
         </div>
-    </div>
-
+    </container>
     <footer>
         <p> Copyright: Jeremy Carlos &copy;</p>
     </footer>
