@@ -4,12 +4,19 @@
         font-family: 'Fira Sans', Helvetica, sans-serif;
     }
     
+    .navbar {
+        background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    }
+    
     .navbar-brand {
         margin: 0;
-        margin-left: 60px;
         padding: 24px 16px 24px 16px;
         font-family: 'Fira Sans', Helvetica, sans-serif;
-        background-color: grey;
+        border-radius: 10px;
+    }
+    
+    .navbar-nav .nav-item .navBtns {
+        color: white;
     }
     
     a {
