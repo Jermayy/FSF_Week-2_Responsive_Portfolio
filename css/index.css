@@ -85,6 +85,27 @@
         color: white;
     }
     
+    .personalDetails {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    #gitHubLogo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #linkedInLogo {
+        width: 20px;
+        height: 20px;
+    }
+    
+    #contactContainer {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    
     @media screen and (max-width: 576px) {
         .wrapper {
             width: 100%;
@@ -98,5 +119,10 @@
         }
         .navbar-toggler-icon {
             color: white;
+        }
+        .personalDetails {
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
         }
     }
