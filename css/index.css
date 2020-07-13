@@ -17,12 +17,27 @@
     .navbar-brand {
         margin: 0;
         padding: 24px 16px 24px 16px;
-        font-family: 'Fira Sans', Helvetica, sans-serif;
         border-radius: 10px;
+        color: white;
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: x-large;
     }
     
     .navbar-nav .nav-item .navBtns {
         color: white;
+        font-family: 'Do Hyeon', sans-serif;
+        font-size: larger;
+        background-color: #3137f5;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    
+    .navbar-nav .nav-item .navBtns:hover {
+        color: #7e7f91;
+    }
+    
+    .navbar-brand:hover {
+        color: #7e7f91;
     }
     
     a {
@@ -48,7 +63,9 @@
     
     #aboutMeCard {
         margin: 0 auto;
+        float: none;
         margin-top: 20px;
+        margin-bottom: 10px;
     }
     
     .card-title {
@@ -69,7 +86,8 @@
     }
     
     .headshot {
-        float: left;
+        clear: both;
+        margin-bottom: 20px;
     }
     
     footer {
@@ -106,6 +124,14 @@
         margin-bottom: 10px;
     }
     
+    #contactMe {
+        margin-top: 20px;
+    }
+    
+    .contactForm {
+        margin: 20px;
+    }
+    
     @media screen and (max-width: 576px) {
         .wrapper {
             width: 100%;
@@ -124,5 +150,13 @@
             margin: 0 auto;
             margin-top: 10px;
             text-align: center;
+        }
+        .navbar-brand {
+            margin: 0 auto;
+            text-align: center;
+        }
+        .navbar-nav .nav-item .navBtns {
+            text-align: center;
+            border: thick solid white;
         }
     }
