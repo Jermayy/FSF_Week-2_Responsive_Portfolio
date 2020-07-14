@@ -4,6 +4,11 @@
         clear: both;
     }
     
+    body {
+        margin-bottom: 40px;
+        background-color: rgb(55, 81, 184);
+    }
+    
     .navigationBar {
         width: 100%;
         margin: auto;
@@ -51,6 +56,7 @@
     .card {
         box-shadow: 5px 10px #888888;
         margin: 30px;
+        padding-bottom: 10px;
         border-radius: 20px;
     }
     
@@ -92,10 +98,11 @@
     
     footer {
         position: fixed;
+        left: 0;
+        bottom: 0;
         width: 100%;
-        bottom: 0px;
         padding: 10px;
-        margin-top: 24px;
+        height: 40px;
         text-align: center;
         background-image: url("https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
         font-family: Arial, Helvetica, sans-serif;
@@ -126,6 +133,13 @@
     
     #contactMe {
         margin-top: 20px;
+    }
+    
+    .contactCard {
+        margin: 0 auto;
+        float: none;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
     .contactForm {
