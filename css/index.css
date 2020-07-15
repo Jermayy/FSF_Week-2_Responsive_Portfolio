@@ -223,4 +223,22 @@
                             margin-bottom: 20px;
                             width: 50%;
                         }
+                        .portfolioLink {
+                            text-align: center;
+                        }
+                        .gitHubLogoPort {
+                            text-align: center;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        .img-thumbnail {
+                            margin-bottom: 10px;
+                        }
+                    }
+                    
+                    @media screen and (min-width: 577px) and (max-width: 767px) {
+                        .gitHubLogoPort {
+                            width: 20px;
+                            height: 20px;
+                        }
                     }
