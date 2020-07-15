@@ -2,6 +2,9 @@
 Full Stack Flex Bootcamp: Weekly Assignment #2
 
 
+Deployed Application Link: https://jermayy.github.io/Portfolio/
+
+
 # Goal/Purpose
 
 This project is my first attempt at creating a responsive 3 page website utilising Twitter bootstrap assets as well as implementing basic HTML and CSS learned over the last 2 weeks.
@@ -39,4 +42,13 @@ Functions learned/implemented:
 
 
 Last Edit 27/05/2020
+
+
+
+
+# Update 15/07/2020
+
+* Updated Bio, Portfolio and Contact pages
+* Centralised CSS file to reduce duplicate code
+* Intent to add functionality to contact form in future
 
